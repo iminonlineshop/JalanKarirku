@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .btn-primary-sm {
+      @apply bg-primer2 hover:bg-primer1  text-white0 font-bold py-[8px] px-[24px] rounded-[8px] shadow-xl;
+    }
+
+    .btn-primary-lg{
+        @apply bg-primer2 hover:bg-primer1  text-white0 font-bold py-[16px] px-[48px] rounded-[8px] text-[20px] shadow-xl;
+    }
+
+    .carousel {
+        @apply transition-transform duration-500 ease-in-out;
+    }
+
+    .tab-button.active {
+        @apply bg-primer4 shadow-xl;
+    }
+
+    .form-field {
+      @apply block pl-4 w-full rounded-md border-0 py-1.5 text-black0 shadow-sm ring-1 ring-gray2 placeholder:text-gray2 focus:ring-2 focus:ring-outline-primer-2 sm:text-sm sm:leading-6;
+    }
+}

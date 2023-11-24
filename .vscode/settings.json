@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true
+}
